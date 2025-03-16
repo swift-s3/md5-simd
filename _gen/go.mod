@@ -1,4 +1,4 @@
-module github.com/minio/md5-simd/_gen
+module github.com/swift-s3/md5-simd/_gen
 
 go 1.16
 

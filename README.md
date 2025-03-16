@@ -13,7 +13,7 @@ thereby making more efficient usage of the computing resources.
 
 ## Usage
 
-[![Documentation](https://godoc.org/github.com/minio/md5-simd?status.svg)](https://pkg.go.dev/github.com/minio/md5-simd?tab=doc)
+[![Documentation](https://godoc.org/github.com/swift-s3/md5-simd?status.svg)](https://pkg.go.dev/github.com/swift-s3/md5-simd?tab=doc)
 
 
 In order to use `md5-simd`, you must first create an `Server` which can be 
@@ -39,8 +39,8 @@ As an example:
     digest := md5Hash.Sum([]byte{})
 ```
 
-To keep performance both a [Server](https://pkg.go.dev/github.com/minio/md5-simd?tab=doc#Server) 
-and individual [Hasher](https://pkg.go.dev/github.com/minio/md5-simd?tab=doc#Hasher) should 
+To keep performance both a [Server](https://pkg.go.dev/github.com/swift-s3/md5-simd?tab=doc#Server) 
+and individual [Hasher](https://pkg.go.dev/github.com/swift-s3/md5-simd?tab=doc#Hasher) should 
 be closed using the `Close()` function when no longer needed.
 
 A Hasher can efficiently be re-used by using [`Reset()`](https://pkg.go.dev/hash?tab=doc#Hash) functionality.
